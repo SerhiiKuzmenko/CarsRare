@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #46528c;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #46528c;
+}
+
+.header{
+    
+    min-width: 900px;
+    height: 220px;
+    background-color: whitesmoke;
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    float: left;
+}
+
+.logo_text{
+    padding-top: 50px;
+    color: #46528c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav{
+    margin-top: 40px;
+}
+
+.logo_text h1{
+    font-size: 2.4em;
+}
+
+.logo_text h2{
+    font-size: 0.8em;
+    padding-left: 280px;
+    color: #242d5c;
+}
+
+ul.menu{
+    float: right;
+}
+
+
+ul.menu li{
+    list-style: none;
+    float: left;
+    margin: 1px 5px 0 0;
+    padding: 0 0 0 11px;
+    
+    
+}
+
+ul.menu li a{
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    font-size: 1.2em;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #636880;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 5px #999;
+    border-radius: 15px;
+    outline: none;
+}
+
+ul.menu li a:hover{
+    color: #46528c;
+    box-shadow: 0 5px #46528c;
+}
+
+
+.intro_text h2{
+    font-size: 1.2em;
+    line-height: 2.1em;
+    padding-left: 20px;
+}
+
+.intro{
+    text-align: left;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background: rgb(70,82,140);
+    background: linear-gradient(0deg, rgba(70,82,140,1) 90%, rgba(245,245,245,1) 100%);
+    width: 100%;
+    height: 330px;
+}
+
+.intro_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    height: 200px;
+    width: 700px;
+    text-align: left;
+    float: right;
+    padding-right: 140px;
+}
+
+.intro_text p{
+    width: 400px;
+}
+
+
+.intro_text hr{
+    border: solid 2px darkgray;
+}
+
+.intro img{
+    float: left;
+    border-radius: 12px;
+    border: solid 16px #dad7d5;
+    width: 25%;
+}
+
+.intro_position{
+    margin-top: 30px;
+    padding-left: 270px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.intro_text a{
+    margin-top: 11px;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    display: block;
+    width: 140px;
+    text-align: center;
+    padding: 1.4%;
+    background-color: rgb(222, 221, 231);
+    border-radius: 7px;
+    float: right;
+    margin-right: 310px;
+}
+
+.intro_text a:hover{
+    background-color: rgb(74, 74, 74);
+    color: rgb(222, 221, 231);
+    transition: all 2s ease;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+.slide{
+    padding-top: 150px;
+    margin-top: 400px;
+    background: rgb(245,245,245);
+    background: linear-gradient(0deg, rgba(245,245,245,1) 64%, rgba(70,82,140,1) 100%);
+}
+
+.slider {
+    margin: 0 auto;
+    width: 500px;
+    height: 334px;
+    background-color: rgb(182, 203, 222);
+}
+
+.controls{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    width: 140px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(222, 221, 231);
+    border-radius: 7px;
+    border: white;
+    font-size: 2.3em;
+}
+
+.btn:hover{
+    background-color: #46528c;
+}
+
+.slider a img{
+    float: left;
+    border-radius: 14px;
+    border: solid 10px #E6E6FA;
+}
+
+.description{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 3% 0 3% 10%;
+    background: rgb(70,82,140);
+    background: linear-gradient(0deg, rgba(70,82,140,1) 35%, rgba(245,245,245,1) 100%);
+}
+
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+
+}
+
+.foot{
+    width: 100%;
+    height: 110px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.rating{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.center{
+    text-align: center;
+}
+
+.intro td img{
+    border: none;
+    width: 65%;
+}
+
+.intro th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.intro td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+th, td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+th, td{
+    border: solid lightskyblue 3px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+th {
+    background: lightskyblue;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    border-color: white;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+th:first-child {
+    border-top-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+td {
+    padding: 10px 20px;
+    background: #636880;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+    border-right: none;
+}
+
+
+.contact h1,h2{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+input{
+    border-radius: 3px;
+    width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    background-color: whitesmoke;
+}
+.position h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.position h1{
+    font-size: 1.9em;
+    margin-bottom: 10px;
+}
+
+textarea{
+    margin-bottom: 10px;  
+    background-color: whitesmoke;
+}
+
+.subscribe{
+    cursor: pointer;
+    text-decoration: none;
+    width: 140px;
+    border-radius: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.subscribe:hover{
+    background-color: azure;
+    transition: all 0.4s ease;
+    
+}
+
+.position{
+    margin-left: 250px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+aside{
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.send{
+    text-align: center;
+}
+
+.send h2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.description_rating{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    padding: 92% 0 3% 0;
+    background: rgb(70,82,140);
+    text-align: center;
+}
+
+.footr{
+    width: 100%;
+    height: 70px;
+    background-image: url("../img/roadfoot.jpg");
+    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
